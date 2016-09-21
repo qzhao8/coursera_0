@@ -1,9 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Hello Coursera!</title>
+	<meta charset="utf-8">
+	<title> Coursera is cool!</title>
+	<style>
+
+		*
+		{
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+		h1
+		{
+			margin-bottom: 15px;
+		}
+		div#container
+		{
+			background-color: #00FFFF;
+			position: relative;
+			top: 60px;
+		}
+		p
+		{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;		
+		}
+		#p1
+		{
+			background-color: #A52A2A;
+			position: relative;
+			top: 65px;
+			left: 65px;
+
+		}
+		#p2
+		{
+			background-color: #DEB887;
+
+		}
+		#p3
+		{
+			background-color: #5F9EA0;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4
+		{
+			background-color: #FF7F50;
+
+		}
+		section
+		{
+			clear: left;
+		}
+
+		#bg
+		{
+			width: 500px;
+			height: 500px;
+
+			background: url("http://vignette2.wikia.nocookie.net/holes/images/8/81/Zerohat.jpg/revision/latest?cb=20151102002135") no-repeat right center blue;
+		}
+		#box
+		{
+			border: 5px solid black;
+			background-color: blue;
+			padding: 10px;
+			margin: 40px;
+			width: 100px;
+			height: 50px;
+			overflow: auto;
+		}
+		#content
+		{
+			background-color: #90EE90;
+		}
+		.style
+		{
+			font-family: Arial, Helvetica, sans-serif;
+			color: #0000FF;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-align: center;
+
+		}
+		div li
+		{
+			list-style: none;
+		}
+		div li:nth-child(2)
+		{
+			list-style: gujarati;
+		}
+		a:link, a:visited
+		{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active
+		{
+			background-color: red;
+			color: purple;
+		}
+
+
+	</style>
 </head>
 <body>
-<h1>Hello Coursera! It's a great course!</h1>
+	<header>
+		i'm a header.
+		<nav>
+			this is nav.
+		</nav>
+	</header>
+	<h1>a</h1>
+	<section>
+		Section 1
+		<article>
+			artical 1
+			<div>
+			<ul>
+				<li>a</li>
+				<li class = "style">b</li>
+				<ul>
+					<li>c</li>
+					<a href="http://www.google.com"
+					target="_blank" title="Like Our Page!">
+						go to google
+					</a>
+					<img src="http://vignette2.wikia.nocookie.net/holes/images/8/81/Zerohat.jpg/revision/latest?cb=20151102002135" width="600" height="800">
+					<li>d</li>
+				</ul>
+				<li>e</li>
+			</ul>
+			</div>
+		</article>
+	</section>
+	<aside>
+		aside
+	</aside>
+	<footer>
+		footer
+	</footer>
+	<div id = "box">
+		<content id = "content">
+			bbbbbbbb bbbbbbbbb bbbbbbbbbb bbbbbb
+		</content>
+	</div>
+	<div id = "bg">
+		something
+	</div>
+
+	<div>
+		<p id = "p1">
+			aaaaaaaaa
+		</p>
+		<p id = "p2">
+			bbbbbbbbb
+		</p>
+		<section>
+			This is regular content continuing afer the paragraph boxes.
+		</section>
+	</div>
+	<h1>
+		Positioning Elements
+	</h1>
+	<div id = "container">
+		<p id = "p1"></p>
+		<p id = "p2"></p>
+		<p id = "p3"></p>
+		<p id = "p4"></p>
+	</div>
 </body>
 </html>

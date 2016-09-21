@@ -1,0 +1,73 @@
+<style>
+
+#s1, #s2, #s3
+{
+	float: left;
+	width: 100%;
+}
+
+.box
+{
+	background-color: #BBBBBB;
+	border: solid 1px black;
+	margin: 10px;
+	clear: left;
+}
+
+.text
+{
+	padding: 10px;
+	clear: right;
+}
+
+#d1, #d2, #d3
+{
+	font-size: 1.25em;
+	float: right;
+	text-align: center;
+	width: 40%;
+	border: solid 1px black;
+	padding: 5px;
+}
+
+#d1
+{
+	background-color: pink;
+}
+
+#d2
+{
+	background-color: #CC6666;
+}
+
+#d3
+{
+	background-color: #CCCC66;
+}
+
+h1
+{
+	font-size: 1.75em;
+	text-align: center;
+	margin: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#s1, #s2
+	{
+		float: left;
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px)
+{
+	#s1, #s2, #s3
+	{
+		float: left;
+		width: 33.33%;
+	}
+}
+
+</style>
